@@ -21,6 +21,15 @@ body {
 
 .stats-container {
     display: flex;
+    /* Add flexbox styles */
+    flex-direction: row; /* or column depending on your design */
+    align-items: center; /* or stretch, baseline, etc. depending on your design */
+}
+
+/* Add hover styles for stats-container */
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
